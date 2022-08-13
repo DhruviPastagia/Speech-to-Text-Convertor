@@ -1,0 +1,121 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+.TextInput {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-size: 16px;
+    border: 1px solid #1b1a7a;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.TextInput:focus {
+    outline: 0;
+    border: 1px solid #1b1a7a;
+    box-shadow: 0px 0px 0px .2rem rgba(0, 60, 255, 0.2);
+}
+
+.text-High {
+    color: #1b1a7a;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn {
+    border: 1px solid #1b1a7a;
+    background-color: white;
+    color: #1b1a7a;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all .4s ease;
+    margin: 12px 10px;
+}
+
+input[type=file]::file-selector-button {
+    border: 1px solid #1b1a7a;
+    border-radius: 10px;
+    padding: 8px 20px;
+    background-color: white;
+    transition: .4s;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #1b1a7a;
+    color: white;
+}
+
+.btn:hover,
+.btn:focus {
+    color: white;
+    background-color: #1b1a7a;
+}
+
+.uploadBox {
+    width: fit-content;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+audio {
+    display: block;
+    margin: 1px auto;
+}
+
+.TitleBox {
+    color: white;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 17, 121, 1) 33%, rgba(0, 146, 191, 1) 100%);
+    height: 8rem;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textBeside {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.btnLink {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #1b1a7a;
+    padding: 8px;
+    border-radius: 10px;
+    color: #1b1a7a;
+    transition: all .4s ease;
+}
+
+.btnLink:hover,
+.btnLink:focus {
+    color: white;
+    background-color: #1b1a7a;
+}
+
+.msg {
+    padding: 10px 12px;
+    border: none;
+    background-color: darkseagreen;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    display: none;
+}
